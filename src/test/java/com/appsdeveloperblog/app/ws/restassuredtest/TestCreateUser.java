@@ -26,7 +26,7 @@ class TestCreateUser {
 	@BeforeEach
 	void setUp() throws Exception {
 		RestAssured.baseURI="http://localhost";
-		RestAssured.port=8080;
+		RestAssured.port=8090;
 	}
 
 	@Test
@@ -54,7 +54,7 @@ class TestCreateUser {
         Map<String, Object> userDetails = new HashMap<>();
         userDetails.put("firstName", "Sergey");
         userDetails.put("lastName", "Kargopolov");
-        userDetails.put("email", "sergey.kargopolov@swiftdeveloperblog.com");
+        userDetails.put("email", "moyineb646@jszmail.com");
         userDetails.put("password", "123");
         userDetails.put("addresses", userAddresses);
  	

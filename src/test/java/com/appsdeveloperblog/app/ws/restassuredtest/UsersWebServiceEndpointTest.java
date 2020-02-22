@@ -21,7 +21,7 @@ import static io.restassured.RestAssured.given;
 class UsersWebServiceEndpointTest {
 	
 	private final String CONTEXT_PATH="/mobile-app-ws";
-	private final String EMAIL_ADDRESS = "sergey.kargopolov@swiftdeveloperblog.com";
+	private final String EMAIL_ADDRESS = "moyineb646@jszmail.com";
 	private final String JSON = "application/json";
 	private static String authorizationHeader;
 	private static String userId;
